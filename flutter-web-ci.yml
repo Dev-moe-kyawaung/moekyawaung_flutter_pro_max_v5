@@ -1,0 +1,9 @@
+Runs on: Push to main, Pull requests
+
+Features:
+  ✓ Flutter dependency installation
+  ✓ Code analysis (flutter analyze)
+  ✓ Format checking (flutter format)
+  ✓ Unit tests (flutter test)
+  ✓ Build verification
+  ✓ Upload build artifact
