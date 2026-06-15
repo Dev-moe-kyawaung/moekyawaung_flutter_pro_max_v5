@@ -81,3 +81,81 @@ curl -fsSL https://flutter.dev/install | bash
 
 # Verify installation
 flutter doctor
+```
+## Installation
+```bash
+# Clone repository
+git clone https://github.com/Dev-moe-kyawaung/Moekyawaung-portfolios.git
+
+# Navigate to project
+cd Moekyawaung-portfolios
+
+# Get dependencies
+flutter pub get
+
+# Run for web (development)
+flutter run -d chrome
+
+# Build for web (production)
+flutter build web --release
+
+# Build Android APK
+flutter build apk --release
+
+# Build iOS
+flutter build ios --release
+```
+## 📱 Live Portfolio
+# GitHub Pages: https://Dev-moe-kyawaung.github.io/Moekyawaung-
+# Email: moekyawaung.mka2030@gmail.com
+# GitHub: https://github.com/Dev-moe-kyawaung
+
+## 🏗️ Project Structure
+```txet
+moekyawaung_flutter_pro_max_v5/
+├── .github/
+│   └── workflows/
+│       ├── flutter-web-ci.yml         # CI Pipeline (build, analyze, test)
+│       ├── flutter-web-cd.yml         # CD to GitHub Pages
+│       ├── firebase-deploy.yml        # Firebase Hosting
+│       ├── android-apk.yml            # Android APK Build
+│       └── ios-build.yml              # iOS Build
+├── lib/
+│   ├── main.dart                      # App entry point
+│   ├── screens/
+│   │   └── home_screen.dart           # Main screen
+│   ├── widgets/
+│   │   ├── hero_v5_pro_max.dart       # Ultimate hero section
+│   │   ├── projects_v5_section.dart   # 3D projects
+│   │   ├── skills_v5_section.dart     # Skills section
+│   │   ├── experience_v5_section.dart # Experience
+│   │   ├── contact_v5_section.dart    # Contact
+│   │   └── footer_v5.dart             # Footer
+│   ├── constants/
+│   │   └── app_data_v5.dart           # Theme & data
+├── android/                           # Android native build
+│   └── app/build.gradle               # APK configuration
+├── ios/                               # iOS native build
+├── web/                               # PWA web build
+│   ├── index.html                     # Web entry
+│   ├── manifest.json                  # PWA config
+│   └── favicon.png
+├── assets/
+│   ├── images/
+│   ├── icons/
+│   └── fonts/
+├── test/                              # Unit tests
+├── firebase.json                      # Firebase config
+├── .firebaserc                        # Firebase project
+├── .eslintrc.json                     # ESLint config
+├── .prettierrc                        # Prettier config
+├── .gitignore
+├── LICENSE                            # MIT License
+├── CONTRIBUTING.md                    # Contribution guide
+├── CODE_OF_CONDUCT.md                 # Code of conduct
+├── SECURITY.md                        # Security policy
+├── pubspec.yaml                       # Dependencies
+└── README.md                          # This file
+```
+
+
