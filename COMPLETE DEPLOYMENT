@@ -1,0 +1,18 @@
+# 1. Create project
+flutter create moekyawaung_flutter_pro_max_v5
+cd moekyawaung_flutter_pro_max_v5
+
+# 2. Copy all files above
+
+# 3. Get dependencies
+flutter pub get
+
+# 4. Run
+flutter run -d chrome
+
+# 5. Build
+flutter build web --release
+flutter build apk --release
+
+# 6. Deploy
+git push origin main
