@@ -22,7 +22,8 @@ dependencies:
   package_info_plus: ^5.0.0
   share_plus: ^7.0.0
   wakelock_plus: ^1.1.0
-  flutter_localizations: ^0.0.1
+  flutter_localizations:
+    sdk: flutter
   intl: ^0.18.0
 
 dev_dependencies:
